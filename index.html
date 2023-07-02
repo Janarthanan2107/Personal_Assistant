@@ -24,26 +24,43 @@
             <p>
         </div>
         <div class="assistant-container">
-            <div class="assistant">
+            <div class="assistant" id="assistant">
                 <div class="left-eye" id="eye"></div>
                 <div class="right-eye" id="eye"></div>
             </div>
-            <div class="base"></div>
+            <div class="base" id="base"></div>
         </div>
-        <div class="widgets-container">
+        <div class="widgets-container" id="widgets-container">
             <ul class="widgets">
-                <a href="https://www.accuweather.com/en/in/coimbatore/206673/minute-weather-forecast/206673"
-                    target="_blank">
-                    <li class="widgets-list"><i class="fa-solid fa-cloud-sun-rain"></i></li>
-                </a>
-                <li class="widgets-list"><i class="fa-regular fa-clock"></i></li>
-                <li class="widgets-list"><i class="fa-solid fa-calendar-days"></i></li>
-                <li class="widgets-list"><i class="fa-regular fa-face-grin-tongue-wink"></i></li>
-                <a href="https://www.google.com/" target="_blank">
-                    <li class="widgets-list"><i class="fa-solid fa-magnifying-glass"></i></li>
-                </a>
-                <li class="widgets-list"><i class="fa-solid fa-lightbulb"></i></li>
+                <div>
+                    <a href="https://www.accuweather.com/en/in/coimbatore/206673/minute-weather-forecast/206673"
+                        target="_blank">
+                        <li class="widgets-list"><i class="fa-solid fa-cloud-sun-rain"></i></li>
+                    </a>
+                    <li class="widgets-list" id="clock"><i class="fa-regular fa-clock"></i></li>
+                    <li class="widgets-list" id="calender"><i class="fa-solid fa-calendar-days"></i></li>
+                </div>
+                <div>
+                    <li class="widgets-list" id="joke"><i class="fa-regular fa-face-grin-tongue-wink"></i></li>
+                    <a href="https://www.google.com/" target="_blank">
+                        <li class="widgets-list"><i class="fa-solid fa-magnifying-glass"></i></li>
+                    </a>
+                    <a href="https://dribbble.com/shots/5473987-AI-Robot" target="_blank">
+                        <li class="widgets-list"><i class="fa-solid fa-lightbulb"></i></li>
+                    </a>
+                </div>
             </ul>
+        </div>
+        <div class="overlay" id="overlay">
+            <div class="model-container" id="model-container">
+                <div class="dialog-msg">
+                    <p id="dialog-msg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus esse tenetur
+                        nemo corrupti</p>
+                </div>
+                <button class="close-btn" id="btn-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
         </div>
     </div>
     <script src="./script/script.js"></script>
