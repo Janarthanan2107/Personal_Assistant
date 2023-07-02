@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Assistant</title>
+    <!-- normalized css -->
+    <link rel="stylesheet" href="./style/normalized.css">
+    <!-- fontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Customized css -->
+    <link rel="stylesheet" href="./style/customized.css">
+</head>
+
+<body>
+    <!--Contents needs to places here!-->
+    <div class="personal-assistant">
+        <div class="heading-container">
+            <h1 class="head-msg">Hello There!</h1>
+            <p class="info">Meet your Personal Assistant, your new personal assistant with an out standing personality.
+            <p>
+        </div>
+        <div class="assistant-container">
+            <div class="assistant">
+                <div class="left-eye" id="eye"></div>
+                <div class="right-eye" id="eye"></div>
+            </div>
+            <div class="base"></div>
+        </div>
+        <div class="widgets-container">
+            <ul class="widgets">
+                <a href="https://www.accuweather.com/en/in/coimbatore/206673/minute-weather-forecast/206673"
+                    target="_blank">
+                    <li class="widgets-list"><i class="fa-solid fa-cloud-sun-rain"></i></li>
+                </a>
+                <li class="widgets-list"><i class="fa-regular fa-clock"></i></li>
+                <li class="widgets-list"><i class="fa-solid fa-calendar-days"></i></li>
+                <li class="widgets-list"><i class="fa-regular fa-face-grin-tongue-wink"></i></li>
+                <a href="https://www.google.com/" target="_blank">
+                    <li class="widgets-list"><i class="fa-solid fa-magnifying-glass"></i></li>
+                </a>
+                <li class="widgets-list"><i class="fa-solid fa-lightbulb"></i></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
